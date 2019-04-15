@@ -1,7 +1,9 @@
-import Header from './header'
-import Layout from './layout'
+import Header from './Header'
+import Layout from './Layout'
+import ProjectSlide from './ProjectSlide'
 
 export {
     Header,
-    Layout
+    Layout,
+    ProjectSlide
 }

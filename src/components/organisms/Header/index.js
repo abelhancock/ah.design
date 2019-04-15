@@ -7,20 +7,19 @@ const Header = () => (
   <Container className={styles.header}>
         <Link
           to="/"
-          activeStyle={{
-            color: "#BD453A",
-            fontWeight: "700",
-          }}
+          activeClassName={styles.active}
         >
           AH
         </Link>
         <Link
-          to="/"
+          to="/work"
+          activeClassName={styles.active}
         >
           Work
         </Link>
         <Link
-          to="/"
+          to="/about"
+          activeClassName={styles.active}
         >
           About
         </Link>

@@ -1,0 +1,36 @@
+@import './normalize.scss';
+@import './variables.scss';
+@import './mixins.scss';
+@import './fonts.scss';
+@import './extendables.scss';
+
+html {
+    font-family: $fontSans;
+    color: $colorPrimary;
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+a {
+    color: $colorPrimary;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    &:hover {
+        color: $colorAccent;
+    }
+}
+
+
+
+p {
+    @extend %fontSizeBase;
+}

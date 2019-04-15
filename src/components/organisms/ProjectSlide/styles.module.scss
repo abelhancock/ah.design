@@ -1,0 +1,43 @@
+li .slide {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .slideContents {
+        width: 60vw;
+        height: 28.12vw;
+        position: relative;
+        img {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 1;
+        }
+        .slideTitle {
+            position: absolute;
+            left: 40px;
+            font-size: 92px;
+            bottom: -64px;
+            color: #94AEC7;
+            z-index: 0;
+        }
+        .slideTitleOutline {
+            position: absolute;
+            left: 40px;
+            font-size: 92px;
+            bottom: -64px;
+            color: transparent;
+            z-index: 2;
+            -webkit-text-stroke: 1px #94AEC7;
+        }
+        .slideDescription {
+            position: absolute;
+            left: 40px;
+            font-size: 24px;
+            bottom: -104px;
+            font-family: "Didot";
+            opacity: 0.8;
+        }
+    }
+}

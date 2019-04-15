@@ -1,0 +1,12 @@
+%fontSizeDisplayLarge {
+    @include font-size (320px, 1920px, 40px, 80px);
+}
+%fontSizeBase {
+    @include font-size (320px, 1920px, 18px, 22px);
+}
+%fontSizeSmall {
+    @include font-size (320px, 1920px, 12px, 16px);
+}
+%fontSizeTiny {
+    @include font-size (320px, 1920px, 8px, 12px);
+}

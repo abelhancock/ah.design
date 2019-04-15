@@ -6,22 +6,30 @@
   "author": "Abel Hancock <abel.hancock@gmail.com>",
   "dependencies": {
     "components": "^0.1.0",
-    "gatsby": "^2.0.76",
-    "gatsby-image": "^2.0.20",
+    "gatsby": "^2.3.22",
+    "gatsby-image": "^2.0.0-rc.4",
     "gatsby-plugin-manifest": "^2.0.9",
     "gatsby-plugin-offline": "^2.0.16",
     "gatsby-plugin-react-helmet": "^3.0.2",
-    "gatsby-plugin-resolve-src": "^1.1.4",
     "gatsby-plugin-sass": "^2.0.7",
-    "gatsby-plugin-sharp": "^2.0.14",
-    "gatsby-source-filesystem": "^2.0.17",
+    "gatsby-plugin-sharp": "^2.0.34",
+    "gatsby-source-filesystem": "^2.0.29",
     "gatsby-transformer-sharp": "^2.1.8",
+    "jquery": "^3.3.1",
     "node-sass": "^4.11.0",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.6.3",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-responsive-carousel": "^3.1.46",
+    "react-scroll": "^1.7.10",
+    "react-skroll": "^0.7.2",
+    "react-slick": "^0.23.2",
+    "react-spring": "^7.2.10",
+    "react-svg": "^7.2.6",
+    "slick-carousel": "^1.8.1"
   },
   "keywords": [
     "gatsby"
@@ -30,12 +38,14 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "dev": "gatsby develop -H 0.0.0.0 -o",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
     "now-build": "npm run build"
   },
   "devDependencies": {
+    "gatsby-plugin-root-import": "^2.0.5",
     "prettier": "^1.15.2"
   },
   "repository": {
