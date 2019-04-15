@@ -58,11 +58,11 @@ class IndexPage extends Component {
 render() {
     if (typeof window !== 'undefined') {
         if(this.state.scrolled) {
-          document.body.style.position = "absolute";
+          document.body.style.position = "fixed";
           document.body.style.top = "-100vh";
         }
         else {
-          document.body.style.position = "absolute";
+          document.body.style.position = "unset";
           document.body.style.top = "unset";
         }
       }
