@@ -108,7 +108,7 @@ render() {
                 <ProjectSlide
                     title="Liferay"
                     description="Design"
-                    img={require('src/images/liferay.png')}
+                    img={'images/liferay.png'}
                     alt="liferay"
                 />
             </div>
@@ -116,7 +116,7 @@ render() {
                 <ProjectSlide
                     title="Triblio"
                     description="Design"
-                    img={require('src/images/Triblio.png')}
+                    img={'/images/Triblio.png'}
                     alt="triblio"
                 />
             </div>
